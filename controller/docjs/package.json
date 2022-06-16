@@ -1,0 +1,15 @@
+{
+  "name": "docjs",
+  "version": "1.0.0",
+  "description": "\"Scraping projet\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Aminah\"",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.7.3",
+    "puppeteer": "^14.3.0"
+  }
+}

@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content%}
+
+<h1>
+  Tableau  Comparatives des Prix de Meubles de Bureau
+</h1>
+
+
+<div>
+    
+</div>
+<table class="container">
+    <thead>
+       <tr>
+            <th id="lib">Libelle</th>
+            <th id="img">image</th>
+            <th id="price">Prix</th>
+            <th id="cat"><p id="categorie">Categorie</p>
+                <select name="" id="select">
+                    <!-- <option value="Categorie">Categorie</option> -->
+                    <option value="">Choix</option>
+                    <option value="table">Table</option>
+                    <option value="chaise">Chaise</option>
+                    <option value="autre">Autre</option>
+
+                </select>
+            </th>
+            <th id="site">Site</th> 
+       </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+
+{% endblock %}
